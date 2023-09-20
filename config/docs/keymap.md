@@ -1,12 +1,22 @@
 # Keymap
 
+You can change the key mapping using the `keymap.toml` configuration file.
+The default for this is found https://github.com/sxyazi/yazi/blob/main/config/preset/keymap.toml.
+
+This is a list of the various commands you can execute via key presses.
+
+`<C-q>` for example means "Press `Control` and `q` at the same time"
+
 ## manager
 
-- escape: Exit visual mode, clear selected, or cancel search.
-- quit: Exit the process.
-- close: Close the current tab; if it is the last tab, then exit the process.
+- `escape`: Exit visual mode, clear selected, or cancel search. (Default: `<ESC>`)
+- `quit`: Exit the process. (Default: `q`)
+- `close`: Close the current tab; if it is the last tab, then exit the process. (Default: `<C-q>`)
+- `suspend`: Suspend the current process (as a background task) ( Default: `<C-z>`)
 
 ### Navigation
+
+You can move the cursor up or down using `arrow <n>` eg: `arrow -1` to move up one line, 
 
 - arrow
 
